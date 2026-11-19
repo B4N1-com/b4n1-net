@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/cover.png" alt="B4N1 Net — Sovereign transport. Sealed frames. Zero trust." width="100%" />
+  <img src="b4n1net_presentation.png" alt="B4N1 Net — Sovereign transport. Sealed frames. Zero trust." width="100%" />
 </p>
 
 <div align="center">
