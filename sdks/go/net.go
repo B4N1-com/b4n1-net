@@ -22,7 +22,7 @@ import (
 )
 
 // Version is the SDK version; it tracks the engine release.
-const Version = "0.4.2"
+const Version = "0.4.3"
 
 var binaries = map[string]string{
 	"linux/amd64":   "b4n1net-linux-amd64",

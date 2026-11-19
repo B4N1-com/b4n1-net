@@ -21,10 +21,10 @@ func TestVersionMatchesEngine(t *testing.T) {
 	if err != nil {
 		t.Fatalf("version: %v", err)
 	}
-	if !strings.Contains(out, "v0.4.2") {
+	if !strings.Contains(out, "v0.4.3") {
 		t.Fatalf("unexpected version banner: %q", out)
 	}
-	if Version != "0.4.2" {
+	if Version != "0.4.3" {
 		t.Fatalf("SDK version drifted from the engine: %q", Version)
 	}
 }

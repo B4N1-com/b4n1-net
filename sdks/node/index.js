@@ -103,4 +103,4 @@ class NetClient {
   stop(json = false) { return run(json ? ['stop', '--json'] : ['stop']); }
 }
 
-module.exports = { NetClient, getBinary, run, SDK_VERSION: "0.4.2" };
+module.exports = { NetClient, getBinary, run, SDK_VERSION: "0.4.3" };

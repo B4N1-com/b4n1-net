@@ -8,7 +8,7 @@ Sovereign transport — thin Java wrapper around the bundled `b4n1net` engine.
 <dependency>
   <groupId>com.b4n1</groupId>
   <artifactId>b4n1-net</artifactId>
-  <version>0.4.2</version>
+  <version>0.4.3</version>
 </dependency>
 ```
 

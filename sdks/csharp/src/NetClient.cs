@@ -18,7 +18,7 @@ namespace B4n1Net;
 public sealed class NetClient
 {
     /// <summary>SDK version; it tracks the engine release.</summary>
-    public const string SdkVersion = "0.4.2";
+    public const string SdkVersion = "0.4.3";
 
     private readonly string _binary;
 

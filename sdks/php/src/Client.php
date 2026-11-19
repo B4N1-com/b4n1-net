@@ -20,7 +20,7 @@ namespace B4n1Net;
 
 final class Client
 {
-    public const SDK_VERSION = '0.4.2';
+    public const SDK_VERSION = '0.4.3';
 
     private const BINARIES = [
         'Linux-x86_64' => 'b4n1net-linux-amd64',
