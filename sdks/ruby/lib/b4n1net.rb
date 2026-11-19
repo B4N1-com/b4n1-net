@@ -16,7 +16,7 @@
 require "open3"
 
 module B4n1Net
-  SDK_VERSION = "0.4.0"
+  SDK_VERSION = "0.4.1"
 
   BINARIES = {
     ["linux", "x86_64"] => "b4n1net-linux-amd64",
