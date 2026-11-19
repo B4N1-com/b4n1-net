@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "b4n1-net"
+version = "0.4.0"
+description = "b4n1-net — Sovereign Network Layer SDK. Thin Python wrapper around the b4n1-net binary (transport, framing, crypto, DNS)."
+authors = [
+    {name = "Bani Montoya", email = "banimontoya@gmail.com"}
+]
+license = "BUSL-1.1"
+license-files = ["LICENSE*", "EULA*"]
+keywords = ["network", "sovereign", "transport", "p2p", "crypto", "dns"]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Networking",
+]
+
+[project.urls]
+Homepage = "https://b4n1.com"
+Repository = "https://github.com/B4N1-com/b4n1-net"
+
+[project.scripts]
+b4n1net = "b4n1net.__main__:main"
+
+[tool.setuptools]
+packages = ["b4n1net", "b4n1net.bin"]
+
+[tool.setuptools.package-data]
+"b4n1net.bin" = ["*"]
+"b4n1net" = ["README.md"]

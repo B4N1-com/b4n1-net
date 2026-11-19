@@ -1,0 +1,30 @@
+{
+  "name": "b4n1-net",
+  "version": "0.4.0",
+  "description": "Sovereign transport: sealed UDP frames with HMAC, AEAD and acknowledgements.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "bin/",
+    "README.md",
+    "LICENSE",
+    "EULA.txt"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "transport",
+    "udp",
+    "p2p",
+    "aead",
+    "sovereign"
+  ],
+  "license": "BUSL-1.1",
+  "author": "Bani Montoya"
+}
