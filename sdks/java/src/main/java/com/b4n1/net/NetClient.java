@@ -17,7 +17,7 @@ package com.b4n1.net;
 public final class NetClient {
 
     /** SDK version; it tracks the engine release. */
-    public static final String SDK_VERSION = "0.4.1";
+    public static final String SDK_VERSION = "0.4.2";
 
     private final String binary;
 

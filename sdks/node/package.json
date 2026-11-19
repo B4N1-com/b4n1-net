@@ -1,6 +1,6 @@
 {
   "name": "b4n1-net",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Sovereign transport: sealed UDP frames with HMAC, AEAD and acknowledgements.",
   "main": "index.js",
   "types": "index.d.ts",
