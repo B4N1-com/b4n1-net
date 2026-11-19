@@ -8,12 +8,13 @@
     <Version>0.4.0</Version>
     <Authors>Bani Montoya</Authors>
     <Description>Sovereign transport: sealed UDP frames with HMAC, AEAD and acknowledgements.</Description>
-    <PackageLicenseExpression>BUSL-1.1</PackageLicenseExpression>
+    <PackageLicenseFile>BUSL-1.1.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <IncludeSymbols>false</IncludeSymbols>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="../BUSL-1.1.txt" Pack="true" PackagePath="/" />
     <None Include="../EULA.txt" Pack="true" PackagePath="/" />
     <None Include="../README.md" Pack="true" PackagePath="/" />
     <None Include="../bin/b4n1net-linux-amd64" Pack="true" PackagePath="bin/" />
