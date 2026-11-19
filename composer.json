@@ -1,0 +1,36 @@
+{
+  "name": "b4n1/b4n1-net",
+  "description": "Sovereign transport SDK: sealed UDP frames with HMAC, AEAD and acknowledgements. One native core, thin wrappers for PHP and Go.",
+  "type": "library",
+  "license": "BUSL-1.1",
+  "keywords": [
+    "transport",
+    "udp",
+    "hmac",
+    "aead",
+    "encryption",
+    "native",
+    "ffi"
+  ],
+  "authors": [
+    {
+      "name": "Bani Montoya",
+      "email": "b4n1@b4n1.com"
+    }
+  ],
+  "homepage": "https://b4n1.com",
+  "support": {
+    "issues": "https://github.com/B4N1-com/b4n1-net/issues",
+    "source": "https://github.com/B4N1-com/b4n1-net"
+  },
+  "require": {
+    "php": ">=8.1",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "B4n1Net\\\\": "sdks/php/src/"
+    }
+  },
+  "readme": "README-PHP.md"
+}
