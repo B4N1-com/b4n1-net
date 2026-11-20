@@ -2,7 +2,7 @@
   "name": "b4n1/b4n1-net",
   "description": "Sovereign transport: sealed UDP frames with HMAC, AEAD and acknowledgements.",
   "type": "library",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "license": "BUSL-1.1",
   "authors": [
     {
